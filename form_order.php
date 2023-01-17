@@ -18,6 +18,7 @@ print_r($_REQUEST);
 echo "</pre>";
 if($_REQUEST['submit']){
 	//подключаемся к БД
+	//сюда нужно вставить личные данные с timeweb
 	$DB_HOST=''; 
 	$DB_USER=''; 
 	$DB_PASS='';
