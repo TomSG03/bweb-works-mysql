@@ -4,9 +4,9 @@ if ($_REQUEST['submit']) {
 	//подключаемся к БД
 	//сюда нужно вставить личные данные с timeweb
 	$DB_HOST = 'localhost:3306';
-	$DB_USER = 'userbx-stud37';
-	$DB_PASS = 'fd3EkM#tgwhb';
-	$DB_NAME = 'dbbx-stud37';
+	$DB_USER = '';
+	$DB_PASS = '';
+	$DB_NAME = '';
 	$link = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 	if (!$link) {
 		$result = [
